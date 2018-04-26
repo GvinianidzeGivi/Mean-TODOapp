@@ -11,15 +11,16 @@ import { TasksListComponent } from './tasks-list/tasks-list.component';
 import { registerLocaleData } from '@angular/common';
 import ptBr from '@angular/common/locales/ka';
 
-import { MaterialModule } from './material.module';
+import { MaterialModule } from './modules/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 registerLocaleData(ptBr)
 
 @NgModule({
   declarations: [
     AppComponent,
-    TasksListComponent
+    TasksListComponent,
   ],
   imports: [
     BrowserModule,

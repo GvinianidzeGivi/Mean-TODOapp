@@ -12,13 +12,23 @@
 
 .main {
     background: #ffffff;
-    padding: 9vh;
+    padding: 8vh;
     border-radius: 3%;
 }
 
-h1 {
-    width: 57%;
-    margin: 0 auto;
+.task {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7vh;
+    font-weight: bold;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 li {
@@ -26,13 +36,18 @@ li {
     align-items: center;
     justify-content: space-between;
     opacity: 0.9;
+    border-bottom: 1px solid black;
 }
 
 p {
-    font-size: 2.5vh;
-    border-bottom: 1px solid #fa3354;
+    font-size: 2.1vh;
     text-align: center;
     font-family: 'bpg_nino_mtavruli_bold';
+}
+
+h1 {
+    width: 57%;
+    margin: 0 auto;
 }
 
 button {
@@ -47,11 +62,4 @@ label {
     align-items: center;
     justify-content: flex-end;
     font-family: 'bpg_nino_mtavruli_bold';
-
-}
-
-.task {
-    font-family: 'Gurajada', serif;
-    font-size: 3vh;
-
 }
