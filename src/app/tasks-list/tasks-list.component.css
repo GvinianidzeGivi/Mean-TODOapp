@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'bpg_nino_mtavruli_bold';
+    src: url('assets/fonts/bpg_nino_mtavruli_bold.otf');
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.main {
+    background: #ffffff;
+    padding: 9vh;
+    border-radius: 3%;
+}
+
+h1 {
+    width: 57%;
+    margin: 0 auto;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.9;
+}
+
+p {
+    font-size: 2.5vh;
+    border-bottom: 1px solid #fa3354;
+    text-align: center;
+    font-family: 'bpg_nino_mtavruli_bold';
+}
+
+button {
+    font-family: 'bpg_nino_mtavruli_bold';
+    background: #fa3354;
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'bpg_nino_mtavruli_bold';
+
+}
+
+.task {
+    font-family: 'Gurajada', serif;
+    font-size: 3vh;
+
+}

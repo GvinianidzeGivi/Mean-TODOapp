@@ -1,0 +1,16 @@
+<div class="container list">
+  <div class="main">
+    <p style="color: #fa3354;">{{date | date:'fullDate':'':'ka'}}</p>
+    <label>დაამატე:
+      <input #taskName />
+      <button (click)="addTask(taskName.value); taskName.value=''">+</button>
+    </label>
+    <ul>
+      <li *ngFor="let task of TasksList">
+        <mat-checkbox [checked]="task.isDone" (click)="updateTask(task)"></mat-checkbox>
+        <p class="task">{{task.title}} isDone: {{task.isDone}}</p>
+        <mat-icon style="color: #fa3354; cursor: pointer;" (click)="deleteTask(task)">delete</mat-icon>
+      </li>
+    </ul>
+  </div>
+</div>
