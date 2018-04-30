@@ -1,4 +1,8 @@
+import { RouterModule } from '@angular/router';
 import { Component } from '@angular/core';
+import { ActivatedRoute, ParamMap } from '@angular/router';
+
+
 
 @Component({
   selector: 'app-root',

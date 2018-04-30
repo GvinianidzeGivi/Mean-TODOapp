@@ -12,8 +12,12 @@
 
 .main {
     background: #ffffff;
-    padding: 8vh;
+    padding: 9vh;
     border-radius: 3%;
+    position: absolute;
+    top: 20%;
+    position: absolute;
+    top: 30%;
 }
 
 .task {
@@ -37,6 +41,7 @@ li {
     justify-content: space-between;
     opacity: 0.9;
     border-bottom: 1px solid black;
+    padding-top: 25px;
 }
 
 p {

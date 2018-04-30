@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'bpg_nino_mtavruli_bold';
+    src: url('assets/fonts/bpg_nino_mtavruli_bold.otf');
+}
+
+nav {
+    text-align: center;
+
+}
+
+a {
+    color: white;
+    font-family: 'bpg_nino_mtavruli_bold';
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+
+}
+
+.activeNav {
+    color: #fa3354;
+    margin: 0 auto;
+}
+

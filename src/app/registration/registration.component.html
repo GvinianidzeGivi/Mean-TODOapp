@@ -1,0 +1,21 @@
+<div class="main-form">
+  <div class="container">
+    <form [formGroup]="form">
+      <h3>რეგისტრაცია</h3>
+      <div class="form-group">
+        <label for="username">სახელი</label>
+        <input formControlName="username" id="username" type="text" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="email">E-Mail</label>
+        <input formControlName="email" id="email" type="text" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="password">პაროლი</label>
+        <input formControlName="password" id="password" type="text" class="form-control">
+      </div>
+      <button class="btn btn-success" type="submit">რეგისტრაცია</button>
+    </form>
+  </div>
+</div>
+

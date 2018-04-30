@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'bpg_nino_mtavruli_bold';
+    src: url('assets/fonts/bpg_nino_mtavruli_bold.otf');
+}
+    .main-form {
+     height: 97%;
+    .container {
+    font-family: 'bpg_nino_mtavruli_bold';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    }
+
+    h3 {
+        text-align:  center;  
+        color: #fa3354;
+ 
+    }
+
+    form {
+        background: #ffffff;
+        padding: 10vh;
+        border-radius: 3%;
+        position: absolute;
+        top: 30%;
+    }
+    .alert {
+        background: #fa3354;
+        color: #ffffff;
+        opacity: 0.8;
+    }
+    .btn-success {
+        background: #fa3354;
+        border: none;
+    }
+}
